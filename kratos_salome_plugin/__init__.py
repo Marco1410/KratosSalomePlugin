@@ -26,8 +26,8 @@ def __CheckSalomeIsInitialized():
         import salome
         # make sure that salome is initialized properly
         # see "__init__.py" of the salome python kernel => "salome_init"
-        if salome.salome_initial:
-            raise Exception('Trying to use salome but "salome.salome_init()" was not called!')
+        # if salome.salome_initial:
+        #     raise Exception('Trying to use salome but "salome.salome_init()" was not called!')
 
 
 def __CheckVersions():
